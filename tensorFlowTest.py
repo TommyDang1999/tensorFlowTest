@@ -5,8 +5,7 @@ import matplotlib.pyplot as plotter
 # this file is dedicated to jake
 
 #lets check what version of tf we have
-print("Tensorflow ver: ", end="") # end="" says do not move to newline
-print(tensorflow.__version__)
+print("Tensorflow ver: ", tensorflow.__version__)
 
 #let's import the fashion mnist
 fashion_mnist = keras.datasets.fashion_mnist
@@ -19,19 +18,15 @@ fashion_mnist = keras.datasets.fashion_mnist
 class_names = ['T-shirt/top', 'Trouser', 'Pullover', 'Dress', 'Coat', 'Sandal', 'Shirt', 'Sneaker', 'Bag', 'Ankle boot']
 
 #lets see how many images are in the training set and how big in width x height
-print("train_images.shape: ", end="") 
-print(train_images.shape)
+print("train_images.shape: ", train_images.shape)
 
 #lets see how many labels
-print("train_labels: ", end="")
-print(len(train_labels)) # len returns us the (len)gth
+print("train_labels: ", len(train_labels)) # len returns us the (len)gth
 
 
-print("test_images.shape: ", end="") 
-print(test_images.shape)
+print("test_images.shape: ", test_images.shape) 
 
-print("test_labels: ", end="")
-print(len(test_labels))
+print("test_labels: ", len(test_labels))
 
 #preprocess the data
 plotter.figure()
