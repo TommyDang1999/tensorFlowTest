@@ -1,4 +1,6 @@
-# tensorFlowTest
+# LearningTensorFlow
+
+![TensorFlow Logo](https://www.tensorflow.org/site-assets/images/landing-page/landing_icon-tf_logo_halo.jpg)
 
 *Let's learn [TensorFlow](https://www.tensorflow.org/tutorials) together!*
 
