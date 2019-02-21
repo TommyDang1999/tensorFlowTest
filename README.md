@@ -1,4 +1,4 @@
-# LearningTensorFlow
+# Learning TensorFlow
 
 ![TensorFlow Logo](https://www.tensorflow.org/site-assets/images/landing-page/landing_icon-tf_logo_halo.jpg)
 
